@@ -7,3 +7,5 @@ python:3.9 is a lightweight offical Docker image published by the Python team. I
 -faster pull/deploy = ideal for CI/CD and Kubernetes
 -less packages = fewer vulnerabilities
  
+docker build -t flask-app .
+docker run -p 5000:5000 flask-app
