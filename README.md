@@ -16,3 +16,6 @@ Docker
 kubectl
 Minikube
 WSL
+
+minikube start
+
